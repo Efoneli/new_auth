@@ -17,7 +17,7 @@ export default function Dashboard() {
   if (isAuthenticated) return null;
 
   return (
-    <div className="max-w-xl mx-auto mt-20 text-center ">
+    <div className="min-h-screen mt-20 text-center bg-gray-100">
       <h2 className="text-2xl font-bold mb-4 text-gray-100">Welcome, {user?.name}</h2>
       <p className="mb-6">Email: {user?.email}</p>
       <button
